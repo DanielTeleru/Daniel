@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.navbar {
+    display: none;
+}
+
+#mainheader {
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#mainwelcome {
+    text-align: center;
+    font-size: 280%;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+#mainmenu {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#mainmenu, #mainwelcome {
+    line-height: 30px;
+}
+
+#mainmenu li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#mainmenu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#mainmenu a:hover {
+    border-bottom: 1px solid white;
+    font-size: 110%;
+}
+
+#mainsection {
+
+    background: url('!!!!!!!!!!!!!!!!!!!!!!') no-repeat center center;
+    height: 700px;
+    width: 100%;
+    color: transparent;
+    padding-top: 20px;
+
+    animation-name: section1-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes section1-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+    
+}
+
+#mainfooter {
+    height: 220px;
+    background: url('!!!!!!!!!!!!!!!!!!!!!!!!!!') no-repeat center;
+    color: transparent;
+    margin-bottom: 50px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 3%;
+    color: #000000;
+}
+
+ i:hover {
+    background-color: #f01212;
+    color: white;
+}
+
+#signupbody,#thanksbody {
+    height: 100%;
+    background: url('!!!!!!!!!!!!!!!!!!!!!');  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#signupbody {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.signupform {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.signupinputs input {
+    display: block;
+    height: 40px;
+    width: 40%;
+    margin: 20px auto;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    background: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.signupinputs button {
+    height: 40px;
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(228, 9, 9);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.signupinputs button:hover {
+    color: gray;
+}
+
+.signupform h2{
+    margin-bottom: 50px;
+    font-size: 200%;
+}
+
+::placeholder {
+    color: black;
+    text-align: center;
+    color: rgb(186, 176, 176);
+    font-style: italic;
+   
+}
+
+#signupsection {
+    margin-top: 150px;
+    color: #fff;
+    background-color:rgba(60, 60, 60, 0.6);
+    border-radius: 25px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #000000;
+    padding: 10px;
+}
+
+#paragraph{
+  width: 90%;
+  margin: auto; 
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color:rgb(0, 0, 0);
+  font-size: 170%;
+  margin-top: 50px;
+  font-style: italic;
+  
+}
+
+#paragraphhome{
+    width: 70%;
+    margin: auto; 
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color:rgb(10, 190, 214);
+    font-size: 170%;
+    margin-top: 50px;
+    font-style: italic;
+  }
+
+#pic img {
+    width: 100%;
+}
+
+#pic {
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+column-count: 3;
+}
+
+#video {
+margin-top: 20px;
+margin-left: 20px;
+border: 15px groove #03c9e4;
+margin-right: 20px;
+background-color: #03c9e4;
+border-radius: 25px 0 25px 0;
+}
+
+.social {
+text-align: center;
+}
+
+#socialthanks {
+    position: absolute;
+    right:0;bottom:0;left:0;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+#thanksbody {
+    height: 1200px;
+}
+
+#thankssection {
+    background: url('!!!!!!!!!!!!!!!') no-repeat center; 
+    height: 300px;
+    background-size: 300px 250px;
+    margin-top: 0px;
+}
+
+#thanksh1 {
+    margin-top: 150px;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #21a4e0;
+    padding: 10px;
+    height: 700px;
+    text-align: center;
+    font-size: 150%;
+}
+
+iframe {
+    width: 100%;
+    height: 800px;
+}
+
+.brands {
+ margin-left: 20px;
+ margin-right: 20px;
+ border: 15px groove #000000;
+ margin-right: 20px;
+ background-color: #000000;
+ border-radius: 25px 25px 25px 25px;
+}
+
+.brands img {
+    width: 100%;
+    display: inline-block;
+} 
+
+hr {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 1500px) {
+    #mainsection {
+        background-size: 1300px 600px;
+        color: transparent;
+        padding-top: 20px;
+    }
+
+    #mainfooter{
+        background-size: 1000px 200px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    #mainsection {
+        background-size: 900px 400px;
+    }
+
+    #mainfooter{
+        background-size: 800px 200px;
+    }
+
+}
+
+@media only screen and (max-width: 920px) {
+    #mainheader {
+        height: 150px;
+    }
+    
+    #mainwelcome {
+        font-size: 120%;
+    }
+    
+    #mainmenu {
+        margin-top: 30px;
+        font-size: 60%;
+    }
+    
+    #mainmenu, #mainwelcome {
+        line-height: 15px;
+    }
+    
+    
+    #mainsection {
+        background-size: 700px 300px;
+        color: transparent;
+        padding-top: 20px;
+        height: 400px;
+    }
+
+    #mainfooter{
+        background-size: 600px 200px;
+    }
+
+    #video iframe {
+        height: 400px;
+    }
+
+    .signupinputs input {
+    font-size: 50%;
+    }
+
+    #thankssection {
+        background-size: 250px 200px;
+        margin-top: 0px;
+    }
+
+    #paragraph, #paragraphhome {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    #mainsection {
+        background-size: 550px 220px;
+        height: 300px;
+    }
+
+    #mainfooter{
+        background-size: 500px 150px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    #mainheader {
+        height: 200px;
+    }
+    
+    #mainwelcome {
+        font-size: 120%;
+    }
+    
+    #mainmenu {
+        margin-top: 30px;
+        font-size: 30%;
+    }
+    
+    #mainmenu, #mainwelcome {
+        line-height: 30px;
+    }
+    
+    #mainsection {
+        background-size: 430px 150px;
+        color: transparent;
+        height: 250px;
+    }
+
+    #mainfooter{
+        background-size: 430px 130px;
+        height: 150px;
+    }
+
+    .signupinputs input {
+    font-size: 50%;
+    width: 80%;
+    }
+
+    #thankssection {
+        background-size: 150px 100px;
+        margin-top: 0px;
+        height: 350px;
+    }
+
+    #paragraph, #paragraphhome {
+        font-size: 85%;
+        padding: 10px;
+        width: 85%;
+    }
+
+    #thanksh1, #thanksp {
+        font-size: 100%;
+    }
+
+    nav ul{
+        display:none;
+    }
+
+    .navbar {
+        display: block;
+        overflow: hidden;
+        background-color: rgb(6, 210, 218);
+        font-family: Arial;
+        margin-top: 30px;
+    }
+  
+   .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+   }
+  
+   .dropdown {
+        overflow: hidden;
+        text-align: center;
+        margin-top: 10px;
+   }
+  
+   .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+  }
+  
+   .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+  }
+  
+   .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        z-index: 1;
+  }
+  
+   .dropdown-content a {
+        float: none;
+        color: green;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+        background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+        display: block;
+  }
+
+  #signupsection {
+        width: 85%;
+  }
+
+  #thanksh1 {
+        width: 85%;
+        height: 35%;
+  }
+
+  #thanksbody {
+        height: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    #mainsection {
+        background-size: 300px 130px;
+        height: 130px;
+    }
+
+    #mainfooter {
+        background-size: 300px 100px;
+        height: 100px;
+
+    }
+
+    
+}
+
